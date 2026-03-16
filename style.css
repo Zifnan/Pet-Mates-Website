@@ -1,0 +1,172 @@
+body{
+margin:0;
+font-family:Arial;
+background:#fff5ef;
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#ffbfae;
+position:sticky;
+top:0;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo i{
+color:#ff6b57;
+font-size:28px;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#333;
+font-weight:600;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(#ffd6c9,#fff5ef);
+text-align:center;
+}
+
+.heroPaw{
+font-size:60px;
+color:#ff6b57;
+margin-bottom:15px;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.heroBtn{
+background:#ff7f6e;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+margin-top:15px;
+}
+
+.pets{
+padding:60px;
+text-align:center;
+}
+
+.petContainer{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.petCard{
+background:white;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.petCard:hover{
+transform:translateY(-10px);
+}
+
+.petCard img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px 10px 0 0;
+}
+
+.petCard button{
+margin:15px;
+padding:10px 20px;
+background:#ff7f6e;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.adoption{
+padding:60px;
+text-align:center;
+background:#ffe9e1;
+}
+
+.adoption form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+}
+
+.adoption input,textarea{
+margin:10px 0;
+padding:10px;
+}
+
+.adoption button{
+padding:12px;
+background:#ff7f6e;
+border:none;
+color:white;
+}
+
+.vets{
+padding:60px;
+text-align:center;
+}
+
+.vetContainer{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.vetCard{
+background:white;
+padding:30px;
+width:220px;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+
+.vetCard i{
+font-size:35px;
+color:#ff7f6e;
+}
+
+footer{
+background:#ffbfae;
+padding:40px;
+margin-top:50px;
+}
+
+.footerContainer{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+}
+
+.copy{
+text-align:center;
+margin-top:20px;
+}

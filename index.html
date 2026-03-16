@@ -1,206 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>petmates </title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html>
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6R0R6LTK48"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6R0R6LTK48');
-</script>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="PetMates is a pet adoption center helping people adopt rescued dogs, cats, and parrots. Find your forever friend and save a life today.">
-<title>PetMates Pet Adoption Center | Adopt Love, Save Lives</title>
-<link rel="stylesheet" href="styling.css">
-<style>
-nav ul li a {
-  text-decoration: none;
-  color: white; 
-  padding: 8px 15px;
-  display: block;
-  transition: 0.3s;}
-
-
-nav ul li a:hover,
-nav ul li a:focus {
-  background-color: white;
-  color: #ff7f50; }
-
-
-nav ul li a.active {
-  background-color: #ff7f50;
-  color: white;
-  border-radius: 4px;}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;   
-  min-width: 160px;
-  z-index: 1000;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
-
-
-.dropdown-content a {
-  color: #ff7f50;   
-  padding: 10px 14px;
-  text-decoration: none;
-  display: block;
-  transition: 0.3s;}
-
-.dropdown-content a:hover {
-  background-color: #ffe5d5;  
-  color: #ff7f50;}
-
-.dropdown:hover .dropdown-content {
-  display: block;}
-
-
-.dropdown:hover > .dropbtn {
-  background-color: white;
-  color: #ff7f50;}
-
-.dropdown .dropbtn.active {
-  background-color: white;
-  color: #ff7f50;
-  border-radius: 4px;}
-
-</style>
+<title>PetMates</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
+
+<div class="logo">
+<i class="fa-solid fa-paw"></i> PetMates
+</div>
+
 <nav>
-<div class="logo"><a href="/home.html"><b> PetMates</b></a></div>
-<ul>
-<li><a href="/index.html" class="active">Home</a></li>
-<li class="dropdown">
-<a href="#" class="dropbtn">Menu ▾</a>
-
-<div class="dropdown-content">
-<a href="/adoption.html">Adoption Information</a>
-<a href="/availablepets.html">Available Pets</a>
-<a href="/stories.html">Success Stories</a>
-<a href="/faqs.html">FAQs</a>
-</div>
-</li>
-<li class="dropdown">
-<a href="#" class="dropbtn">Donate ▾</a>
-
-<div class="dropdown-content">
-<a href="/adoptform.html">Adoption Form</a>
-<a href="/donatepets.html" aria-label="Donation options menu" >Donate Pets</a>
-</div>
-</li>
-<li><a href="/aboutus.html">About Us</a></li>
-<li><a href="/contactus.html">Contact Us</a></li>
-</ul>
-<a href="/adoptform.html" class="btn adopt-btn">Adopt Now</a>
+<a href="#home">Home</a>
+<a href="#dogs">Dogs</a>
+<a href="#cats">Cats</a>
+<a href="#parrots">Parrots</a>
+<a href="#adopt">Adopt</a>
+<a href="#vets">Vets</a>
 </nav>
+
 </header>
 
-<main>
-<div class="scroll-text">
-<p>🐾 Adopt don't Buy! Saving lives, one paw at a time. 🐾</p>
-</div>
 
-<section class="hero">
-<div class="hero-text">
-<h1>Find Your Forever Friend </h1>
-<p>Rescue, rehabilitate, and rehome cats, dogs, and parrots. Every adoption saves a life and creates a lifelong bond.</p>
-<a href="availablepets.html" class="btn">View Pets</a>
-</div>
-<div class="hero-images">
-<img src="cat1.jpeg" alt="Adopt rescued cat from PetMates adoption center" class="hero-img">
-<img src="dog1.jpeg" alt="Rescued dog available for adoption at PetMates" class="hero-img">
-<img src="parrot1.jpg" alt="Parrot available for adoption at PetMates" class="hero-img">
+<section class="hero" id="home">
 
-</div>
-</section>
+<i class="fa-solid fa-paw heroPaw"></i>
 
-<section class="why-adopt">
-<h2>Why Adopt a Pet?</h2>
-<div class="why-cards">
-<div class="why-card">
-<img src="rescuelogo.png" alt="Pet rescue and adoption support">
-<h3>Save Lives </h3>
-<p>Thousands of pets need homes. Adopting gives them a second chance.</p>
-</div>
-<div class="why-card">
-<img src="love.png" alt="Unconditional love through pet adoption">
+<h1>Find Your Perfect Pet Companion</h1>
 
-<h3>Unconditional Love</h3>
-<p>Cats, dogs, and parrots offer loyalty, joy, and companionship.</p>
-</div>
-<div class="why-card">
-<img src="support.png" alt="Guidance and support for new pet owners">
+<p>Adopt. Love. Care.</p>
 
-<h3>Support & Guidance</h3>
-<p>We guide new pet parents on care, nutrition, and training.</p>
-</div>
-</div>
+<a href="#adopt" class="heroBtn">Start Adoption</a>
+
 </section>
 
 
-<section class="featured-pets">
-<h2>Meet Our Adoptable Pets</h2>
-<div class="pet-gallery">
-<div class="pet-card">
-<img src="siameseCat.jpeg" alt="Luna the Cat">
+<section class="pets" id="dogs">
+
+<h2>Dogs Available</h2>
+
+<div class="petContainer">
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1558788353-f76d92427f16">
+<h3>Buddy</h3>
+<p>Golden Retriever</p>
+<button onclick="selectPet('Buddy')">Adopt</button>
+</div>
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1517849845537-4d257902454a">
+<h3>Max</h3>
+<p>Labrador</p>
+<button onclick="selectPet('Max')">Adopt</button>
+</div>
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1507149833265-60c372daea22">
+<h3>Rocky</h3>
+<p>Beagle</p>
+<button onclick="selectPet('Rocky')">Adopt</button>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="pets" id="cats">
+
+<h2>Cats Available</h2>
+
+<div class="petContainer">
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131">
 <h3>Luna</h3>
-<p>1 Year | Siamese | Playful & affectionate</p>
+<p>Persian Cat</p>
+<button onclick="selectPet('Luna')">Adopt</button>
 </div>
-<div class="pet-card">
-<img src="lab.jpg" alt="Ronny the Dog">
-<h3>Ronny</h3>
-<p>2 Years | Labrador Mix | Loyal & friendly</p>
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1574158622682-e40e69881006">
+<h3>Milo</h3>
+<p>Siamese</p>
+<button onclick="selectPet('Milo')">Adopt</button>
 </div>
-<div class="pet-card">
-<img src="parrot2.jpeg" alt="Polly the Parrot">
-<h3>Polly</h3>
-<p>3 Years | Green Parrot | Smart & talkative</p>
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f">
+<h3>Kitty</h3>
+<p>British Shorthair</p>
+<button onclick="selectPet('Kitty')">Adopt</button>
 </div>
+
 </div>
+
 </section>
-</main>
 
-<footer style="padding:20px; font-family:Arial, sans-serif;">
 
-<p style="font-size:18px; margin:5px 0;">🐾 Explore our pets and find your forever companion today.</p>
-<p>Follow us on:</p>
-<div style="margin:15px 0;">
-<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram link opens in new tab">
+<section class="pets" id="parrots">
 
-<img src="instalogo.jpeg" alt="Instagram" width="30" style="margin:0 8px;">
-</a>
+<h2>Parrots Available</h2>
 
-<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook link opens in new tab"></a>
-<img src="fbb.png" alt="Facebook" width="30" style="margin:0 8px;">
-</a>
-<a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn link opens in new tab">
-<img src="linkedin.png" alt="LinkedIn" width="30" style="margin:0 8px;">
-</a>
+<div class="petContainer">
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3">
+<h3>Coco</h3>
+<p>Macaw</p>
+<button onclick="selectPet('Coco')">Adopt</button>
 </div>
-<p style="margin:10px 0; font-size:14px;">© 2025 PetMates | All Rights Reserved</p>
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13">
+<h3>Rio</h3>
+<p>Amazon Parrot</p>
+<button onclick="selectPet('Rio')">Adopt</button>
+</div>
+
+<div class="petCard">
+<img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee">
+<h3>Sunny</h3>
+<p>Lovebird</p>
+<button onclick="selectPet('Sunny')">Adopt</button>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="adoption" id="adopt">
+
+<h2>Adoption Form</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="text" id="petName" placeholder="Pet Name">
+
+<input type="text" placeholder="City">
+
+<textarea placeholder="Why do you want to adopt?"></textarea>
+
+<button type="submit">Submit Adoption Request</button>
+
+</form>
+
+</section>
+
+
+<section class="vets" id="vets">
+
+<h2>Our Veterinary Partners</h2>
+
+<div class="vetContainer">
+
+<div class="vetCard">
+<i class="fa-solid fa-user-doctor"></i>
+<h3>Dr. Priya Sharma</h3>
+<p>Animal Care Clinic</p>
+<p>+91 9876543210</p>
+</div>
+
+<div class="vetCard">
+<i class="fa-solid fa-user-doctor"></i>
+<h3>Dr. Rahul Fernandes</h3>
+<p>Happy Pets Vet Hospital</p>
+<p>+91 8765432109</p>
+</div>
+
+<div class="vetCard">
+<i class="fa-solid fa-user-doctor"></i>
+<h3>Dr. Maria Dsouza</h3>
+<p>Pet Wellness Center</p>
+<p>+91 9988776655</p>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<div class="footerContainer">
+
+<div>
+<h3>PetMates</h3>
+<p>Connecting loving pets with caring homes.</p>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<p>Home</p>
+<p>Adopt</p>
+<p>Dogs</p>
+<p>Cats</p>
+</div>
+
+<div>
+<h3>Follow Us</h3>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-twitter"></i>
+</div>
+
+</div>
+
+<p class="copy">© 2026 PetMates Adoption Center</p>
+
 </footer>
 
-<script>
-let currentPage = window.location.pathname.split("/").pop();
+<script src="script.js"></script>
 
-document.querySelectorAll(".dropdown-content a").forEach(link => {
-if (link.getAttribute("href") === currentPage) {
-link.classList.add("active"); 
-link.closest(".dropdown").querySelector(".dropbtn").classList.add("active"); }});
-
-document.querySelectorAll("nav ul li a").forEach(link => {
-if (link.getAttribute("href") === currentPage) {
-link.classList.add("active");}});
-
-</script>
 </body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
 </html>
